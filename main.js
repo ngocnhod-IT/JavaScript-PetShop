@@ -1,7 +1,7 @@
 // PETS 
 const petsContainer = document.getElementById('pets-container');
 
-fetch('./json_server/db.json')
+fetch('http://localhost:3000/pets')
   .then(res => res.json())
   .then(pets => {
     pets.forEach(p => {
@@ -31,7 +31,7 @@ fetch('./json_server/db.json')
 // PRODUCTS
 const productsContainer = document.getElementById('products-container');
 
-fetch('./json_server/db.json')
+fetch('http://localhost:3000/products')
   .then(res => res.json())
   .then(products => {
     products.forEach(p => {
@@ -61,7 +61,7 @@ fetch('./json_server/db.json')
 //  USEFUL
 const usefulContainer = document.getElementById('useful-container');
 
-fetch('./json_server/db.json')
+fetch('http://localhost:3000/useful')
   .then(res => res.json())
   .then(usefuls => {
     usefuls.forEach(u => {
