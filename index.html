@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shop - Monito</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <!-- json-server --watch db.json -->
+   
+  <body>
+    <div class="container py-5" id="our-pets">
+      <p class="text-center text-muted">What’s new?</p>
+      <h2 class="text-center fw-bold mb-5">Take A Look At Some Of Our Pets</h2>
+      <div id="pets-container" class="row g-4"></div>
+    </div>
+
+    <div class="container py-5" id="our-products">
+      <p class="text-center text-muted">Hard to choose the right products for your pets?</p>
+      <h2 class="text-center fw-bold mb-5">Our Products</h2>
+      <div id="products-container" class="row g-4"></div>
+    </div>
+
+    <div class="container py-5" id="useful-pet-container">
+      <p class="text-center text-muted">You already know?</p>
+      <h2 class="text-center fw-bold mb-5">Useful Pet Knowledge</h2>
+      <div id="useful-container" class="row g-4"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="mt-5">
+      <div class="register-now text-center text-white">
+        <h2>Register now so you don’t miss our programs</h2>
+        <form id="subscribe-form" class="d-flex justify-content-center mt-3">
+          <input type="email" id="id-email" placeholder="Enter your Email" class="form-control w-50 me-2" />
+          <button id="id-submit" class="btn btn-dark px-4">Subscribe Now</button>
+        </form>
+      </div>
+
+      <div class="footer-links d-flex justify-content-between align-items-center mt-5">
+        <ul class="list-inline mb-0">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Category</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-youtube"></i>
+          <i class="bi bi-github"></i>
+        </div>
+      </div>
+
+      <hr />
+      <div class="text-center small text-muted">
+        © 2025 Monito. All rights reserved. | Terms of Service | Privacy Policy
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

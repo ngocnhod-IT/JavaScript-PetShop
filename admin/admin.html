@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding: 20px; background: #f8f9fa; font-family: Arial, sans-serif; }
+    h2 { margin-top: 20px; }
+    table th, table td { vertical-align: middle; }
+    form { margin-top: 20px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    form input, form select { margin-bottom: 10px; }
+    .tab-btn { margin-right: 10px; }
+  </style>
+</head>
+<body>
+
+<h1>Admin Panel</h1>
+<div>
+  <button class="btn btn-primary tab-btn" onclick="showTab('pets')">Manage Pets</button>
+  <button class="btn btn-primary tab-btn" onclick="showTab('products')">Manage Products</button>
+</div>
+
+<!-- Pets -->
+<div id="tab-pets">
+  <h2>Pets</h2>
+  <table class="table table-bordered" id="pet-table">
+    <thead>
+      <tr>
+        <th>ID</th><th>Code</th><th>Name</th><th>Gender</th><th>Age</th><th>Price</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h3>Form Add / Edit Pet</h3>
+  <form id="pet-form">
+    <input type="hidden" id="pet-id">
+    <input class="form-control" type="text" id="pet-code" placeholder="Code" required>
+    <input class="form-control" type="text" id="pet-name" placeholder="Name" required>
+    <select class="form-control" id="pet-gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    <input class="form-control" type="text" id="pet-age" placeholder="Age" required>
+    <input class="form-control" type="text" id="pet-price" placeholder="Price" required>
+    <input class="form-control" type="text" id="pet-avatar" placeholder="Avatar URL" required>
+    <button class="btn btn-success mt-2" type="submit">Save</button>
+  </form>
+</div>
+
+<!-- Products -->
+<div id="tab-products" style="display:none;">
+  <h2>Products</h2>
+  <table class="table table-bordered" id="product-table">
+    <thead>
+      <tr>
+        <th>ID</th><th>Name</th><th>Type</th><th>Size</th><th>Price</th><th>Bonus</th><th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <h3>Form Add / Edit Product</h3>
+  <form id="product-form">
+    <input type="hidden" id="product-id">
+    <input class="form-control" type="text" id="product-name" placeholder="Name" required>
+    <input class="form-control" type="text" id="product-type" placeholder="Product Type" required>
+    <input class="form-control" type="text" id="product-size" placeholder="Size" required>
+    <input class="form-control" type="text" id="product-price" placeholder="Price" required>
+    <input class="form-control" type="text" id="product-tag" placeholder="Bonus / Tag" required>
+    <input class="form-control" type="text" id="product-avatar" placeholder="Avatar URL" required>
+    <button class="btn btn-success mt-2" type="submit">Save</button>
+  </form>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

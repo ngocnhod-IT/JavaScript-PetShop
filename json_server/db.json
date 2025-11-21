@@ -1,0 +1,173 @@
+{
+  "pets": [
+    {
+      "code": "MO231",
+      "name": "Pomeranian White",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "6.901.000 VND",
+      "avatar": "/images/Our_pets/pet1.png",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "code": "M0502",
+      "name": "Poodle Tiny Yellow",
+      "gender": "Female",
+      "age": "02 months",
+      "price": "3.900.000 VND",
+      "avatar": "/images/Our_pets/pet2.png"
+    },
+    {
+      "id": "3",
+      "code": "MO102",
+      "name": "Poodle Tiny Sepia",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "4.000.000 VND",
+      "avatar": "/images/Our_pets/pet3.png"
+    },
+    {
+      "id": "4",
+      "code": "MO512",
+      "name": "Alaskan Malamute Grey",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "8.900.000 VND",
+      "avatar": "/images/Our_pets/pet4.png"
+    },
+    {
+      "id": "5",
+      "code": "MO231",
+      "name": "Pembroke Corgi Cream",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "7.900.000 VND",
+      "avatar": "/images/Our_pets/pet5.png"
+    },
+    {
+      "id": "6",
+      "code": "M0502",
+      "name": "Pembroke Corgi Tricolor",
+      "gender": "Female",
+      "age": "02 months",
+      "price": "9.000.000 VND",
+      "avatar": "/images/Our_pets/pet6.png"
+    },
+    {
+      "id": "7",
+      "code": "MO231",
+      "name": "Pomeranian White",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "6.500.000 VND",
+      "avatar": "/images/Our_pets/pet7.png"
+    },
+    {
+      "id": "8",
+      "code": "MO512",
+      "name": "Poodle Tiny Dairy Cow",
+      "gender": "Male",
+      "age": "02 months",
+      "price": "5.000.000 VND",
+      "avatar": "/images/Our_pets/pet8.png"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Reflex Plus Adult Cat Food Salmon",
+      "product_type": "Cat Food",
+      "size": "385gm",
+      "price": "140.000 VND",
+      "tag_free": "Free Toy & Free Shaker",
+      "avatar": "/images/Our_products/prd1.png"
+    },
+    {
+      "id": "2",
+      "name": "Reflex Plus Adult Cat Food Salmon",
+      "product_type": "Cat Food",
+      "size": "1.5kg",
+      "price": "165.000 VND",
+      "tag_free": "Free Toy & Free Shaker",
+      "avatar": "/images/Our_products/prd2.png"
+    },
+    {
+      "id": "3",
+      "name": "Cat scratching ball toy kitten sisal rope ball",
+      "product_type": "Toy",
+      "size": "N/A",
+      "price": "1.100.000 VND",
+      "tag_free": "Free Cat Food",
+      "avatar": "/images/Our_products/prd3.png"
+    },
+    {
+      "id": "4",
+      "name": "Cute Pet Cat Warm Nest",
+      "product_type": "Toy",
+      "size": "N/A",
+      "price": "410.000 VND",
+      "tag_free": "Free Cat Food",
+      "avatar": "/images/Our_products/prd4.png"
+    },
+    {
+      "id": "5",
+      "name": "NaturVet Dogs - Omega-Gold Plus Salmon Oil",
+      "product_type": "Dog Food",
+      "size": "385gm",
+      "price": "350.000 VND",
+      "tag_free": "Free Toy & Free Shaker",
+      "avatar": "/images/Our_products/prd5.png"
+    },
+    {
+      "id": "6",
+      "name": "Costumes Fashion Pet Cloths Cowboy Rider",
+      "product_type": "Costume",
+      "size": "1.5kg",
+      "price": "500.000 VND",
+      "tag_free": "Free Toy & Free Shaker",
+      "avatar": "/images/Our_products/prd6.png"
+    },
+    {
+      "id": "7",
+      "name": "Costumes Chicken Drumstick Headband",
+      "product_type": "Costume",
+      "size": "N/A",
+      "price": "400.000 VND",
+      "tag_free": "Free Cat Food",
+      "avatar": "/images/Our_products/prd7.png"
+    },
+    {
+      "id": "8",
+      "name": "Plush Pet Toy",
+      "product_type": "Toy",
+      "size": "N/A",
+      "price": "250.000 VND",
+      "tag_free": "Free Food & Shaker",
+      "avatar": "/images/Our_products/prd8.png"
+    }
+  ],
+  "useful": [
+    {
+      "id": "1",
+      "category": "Pet knowledge",
+      "title": "What is a Pomeranian? How to Identify Pomeranian Dogs",
+      "summary": "The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circu...",
+      "image": "/images/Useful_pet_knowledge/upk1.png"
+    },
+    {
+      "id": "2",
+      "category": "Pet knowledge",
+      "title": "Dog Diet You Need To Know",
+      "summary": "Dividing a dog's diet may seem simple at first, but there are some rules you should know so that your dog can easily absorb the nutrients in the diet. For those who are just starting to raise dogs, especially...",
+      "image": "/images/Useful_pet_knowledge/upk2.png"
+    },
+    {
+      "id": "3",
+      "category": "Pet knowledge",
+      "title": "Why Dogs Bite and Destroy Furniture and How to Prevent it Effectively",
+      "summary": "Dog bites are common during development. However, no one wants to see their furniture or important items being bitten by a dog.",
+      "image": "/images/Useful_pet_knowledge/upk3.png"
+    }
+  ]
+}
